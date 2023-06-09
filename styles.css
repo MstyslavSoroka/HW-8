@@ -1,0 +1,48 @@
+.text-box h3:nth-child(1) {
+    color: pink;
+}
+
+#greycol {
+    color: grey;
+}
+
+div div p {
+    color: red;
+}
+.text-box p:not(#greycol):not(p.yellow):not(:last-child):not(:nth-child(2)){
+    color: green;
+}
+p.yellow {
+    color: yellow;
+}
+
+
+.lesson-container ul li:first-child {
+    color: blue;
+    font-size: 19px;
+    background-color: aqua;
+}
+
+.lesson-container ul li:nth-child(2):hover {
+    background-color: rgb(252, 151, 151);
+    color: green;
+    font-size: 15px;
+}
+
+.lesson-container ul li:nth-child(3) {
+    color: red;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.lesson-container ul li:nth-child(4) {
+    color: rgb(255, 0, 123);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.lesson-container ul li:last-child {
+    color: rgb(3, 121, 123);
+    font-size: 16px;
+    background-color: hotpink;
+}
